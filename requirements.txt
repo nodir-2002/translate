@@ -1,0 +1,8 @@
+﻿python-telegram-bot
+deep-translator
+SpeechRecognition
+pydub
+gunicorn
+flask
+fastapi
+uvicorn
