@@ -7,8 +7,7 @@ from telegram.ext import (
 from deep_translator import GoogleTranslator
 import speech_recognition as sr
 import os
-
-TOKEN = "8744198551:AAHoWyQ32dQqlF3fpzDM3ALEqxDAbKhGHas"
+TOKEN = os.getenv("TOKEN")
 
 user_lang = {}
 
